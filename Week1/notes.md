@@ -19,3 +19,4 @@ $ man 5 passwd
 // relative path vs absolute path
 // pwd gives absolute path
 // ~ 
+```
