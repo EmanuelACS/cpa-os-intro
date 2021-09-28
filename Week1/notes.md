@@ -18,6 +18,7 @@ $ man 5 passwd
 
 // relative path vs absolute path
 // pwd gives absolute path
+<<<<<<< HEAD
 // ~ is root
 // ./ is current dir
 
@@ -60,3 +61,7 @@ $ ls b[A-Z]ok
 $ mkdir dirName
 $ mkdir path/dirName
 $ mkdir -p parentName/childName
+=======
+// ~ 
+```
+>>>>>>> 15dc700f4a02484138c127db577bbc769174d5a1
