@@ -61,7 +61,3 @@ $ ls b[A-Z]ok
 $ mkdir dirName
 $ mkdir path/dirName
 $ mkdir -p parentName/childName
-=======
-// ~ 
-```
->>>>>>> 15dc700f4a02484138c127db577bbc769174d5a1
