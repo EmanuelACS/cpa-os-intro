@@ -1,0 +1,42 @@
+# Test Review
+- Globbing                                  
+    - ls *[]?s
+    - [0-9] any one number
+    - [a-z] any one lowercase
+    - * wildcard for any string
+    - ? wildcard for single char
+    - 
+- Permissions                               
+    - 4 2 1 , rwx, ugo
+- Absolute + Relative Paths                 
+    - / vs ./...
+- Which OS is linux modeled after?          
+    - UNIX, made portable being a c language
+- Copy file from dirA to dirB               
+    - cp dirApath/file dirBpath
+- [root@localhost /]#                       
+    - root user ON system localhost IN / directory, # MEANS Admin User 
+- pwd                                       
+    - Displays working directory
+- What is path: [root@localhost ~]# (if pwd)    
+    - /root
+- What is path: [root@localhost root]# (if pwd)
+    - /root
+- What is directory: [root@localhost bin]# (not path)
+    - bin
+- ~ means home dir
+- / means root
+- /root means home directory of root user
+- Command to set perms for fileA 
+    - Usr = rw, Grp = wx Oth = x: 
+    - $ chmod 631 fileA 
+    - $ chmod u+rw, g+wx, o+x fileA
+- rm -rf (remove -recursive -force)
+    - rm -rf path/itemA
+- mkdir // creates directory
+    - $ mkdir path/dirA    // make new dirA 
+    - -p create parent dir as well
+- mv // moves or renames item
+- cp // copies item
+
+
