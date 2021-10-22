@@ -21,3 +21,12 @@ if [ $week = "break" ] // when accessing vars, add $
 then 
     echo "Breaking out."
 fi
+```
+
+### Lab Notes
+```
+echo $PATH // shows path
+echo $HOSTNAME // shows host name
+echo $HISTSIZE // shows max ammount of commands stored for recall
+echo $HOME // shows home path
+```
