@@ -58,7 +58,10 @@ $ chmod perms file                                                   // | for pe
 $ chmod u+w file (add write to owner)
 $ chmod u-w,g-w,o-w file (remove write for all)
 $ chmod g+rwx file (add rwx to group)
-
-
-
 ```
+
+### Extra 
+File Type   File Permissions   # HardLinks     Owner    Group   Size    Time Stamp      Name  
+    -           rw-r---wx           2          Sigh     wheel   254    Oct 1 10:30      FileA
+                [u][g][o]
+                user, group, other
