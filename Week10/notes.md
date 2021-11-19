@@ -129,3 +129,105 @@ function hello()
 }
 hello $name lab
 ```
+
+102) While loop
+```
+while [ $cost < 100 ]
+    do 
+        echo "testing over 100: $cost"
+        read $cost
+    done
+```
+
+103) If statement
+```
+if [ $abc = $name ]
+    then 
+        echo "correct! $name"
+    else 
+        echo "good try! $abc"
+fi
+```
+
+103) Add user
+```
+useradd userName 
+```
+
+104) where is user's mail directory
+```
+/var/maik/userName
+```
+
+105) Check login status
+```
+who
+```
+
+106) Change user passwd as root
+```
+passwd userName
+```
+
+107) modify user
+```
+usermod userName
+```
+
+108) delete user
+```
+userdel userName
+```
+
+109) check identity
+```
+whoami
+```
+
+110) Assign user for different groups
+```
+usermod -a -G groupName userName
+```
+
+1) manage group
+```
+groupadd myGrp
+groupmod -rwx myGrp
+groupdel myGrp
+```
+
+2) users home dir
+```
+/etc/passwd
+```
+
+3) group info
+```
+/etc/group
+```
+
+4) log files
+```
+/var/log
+```
+
+5) find passwords
+```
+/etc/shadow
+```
+
+6) view top processes
+```
+top (P for cpu M for memory)
+ps 
+```
+
+7) check if file exists
+```
+if [ -s /tmp/file ]
+    then 
+        echo "yes"
+    else
+        echo "no"
+fi
+```
