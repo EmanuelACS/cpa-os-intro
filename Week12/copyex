@@ -1,0 +1,14 @@
+//KC03A0D  JOB 'EMANUEL DOBRA',
+//             MSGCLASS=H
+//*
+//*      NAME:  EMANUEL DOBRA
+//*      CREATE AN MVS FILE
+//*
+//COPY     EXEC PGM=IEFBR14
+//DELFILE  DD DSN=KC03A0D.COMP1081.EMANUEL.DOBRA.MYFILE,
+//             DISP=(NEW,KEEP,DELETE),
+//             DCB=(LRECL=256,BLKSIZE=512,RECFM=FB),
+//             SPACE=(512,10)
+//
+//
+
