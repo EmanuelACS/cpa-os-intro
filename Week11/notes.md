@@ -12,6 +12,7 @@
 9) Enter in Password ===> ```id``` (hit enter)
 10) Enter in new Password (letters and # only): ```pass``` 
 11) Click enter twice to get to Main Page
+    a) type 2 at the top
 12) Click ```F3``` to exit
 13) to logoff, type: ```logoff```
 14) to log back in, enter in ```id```, then enter in normal password

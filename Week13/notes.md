@@ -11,4 +11,14 @@ All params except first one must be on column 16 (first one only separatated by 
 
 // NOTIFY=&SYSUID
 if RC=0000 no errors
+
+// EXEC is also called STEPNAME
+
+// submit job
+=> SUB
+
+// Go to held queue
+=> =sd.h
+
+CONDition CODE, CC, Return Code, RC all mean the same thing.
 ```
